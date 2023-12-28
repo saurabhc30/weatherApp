@@ -17,7 +17,7 @@ const Home = () => {
     const [isStyle, setStyle] = useState(false);
     const [isImage, setImage] = useState(Clear);
     const [searchClicked, setSearchClicked] = useState(false);
-    const API_KEY = '4718c43314591d097d17be1d1ccb39c6';
+    const API_KEY = 'YOUR_API_TOKEN';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
 
 
